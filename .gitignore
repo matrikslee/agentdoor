@@ -1,0 +1,10 @@
+/target/
+target/
+*.png.tmp
+big.bin
+gui_snapshot*.png
+.tmp-*
+*.tmp
+__pycache__/
+*.pyc
+Cargo.lock.orig

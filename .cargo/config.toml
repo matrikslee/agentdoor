@@ -1,0 +1,3 @@
+[target.x86_64-pc-windows-gnu]
+linker = "x86_64-w64-mingw32-gcc"
+rustflags = ["--sysroot", "/mnt/fileroot/cheng.li/tools/cache/wb/wb-sysroot", "-lshell32", "-luser32", "-lkernel32", "-lole32", "-lws2_32"]
